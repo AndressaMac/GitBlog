@@ -7,13 +7,21 @@ import { defaultTheme } from './Global/globalThemes'
 
 
 
+
+
+
+
 function App() {
  
+
+
   return (
     <>
     <ThemeProvider theme={defaultTheme} >
       <BrowserRouter>
+      
          <Router />
+       
       </BrowserRouter>
       <GlobalStyle />
       </ThemeProvider>
